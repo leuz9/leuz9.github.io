@@ -22,6 +22,11 @@ svg {
   z-index: 0;
 }
 
+.title-center {
+  width: 100vw;
+  text-align: center;
+}
+
 .btn {
   position: fixed;
   bottom: 5%;
@@ -52,24 +57,16 @@ svg {
 }
 
 .summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 15px;
+  flex-wrap: wrap;
   color: #fff;
-  padding: 1rem 2rem;
   text-align: center;
   font-size: 1.5rem;
-  width: 100vw;
-}
-
-.summary h1 {
-  font-size: 3rem;
-}
-
-.summary ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.summary li {
-  margin-top: 0.5rem;
+  width: 90vw;
+  margin-left: 5vw;
 }
 
 .summary a {
@@ -78,5 +75,5 @@ svg {
 }
 
 .summary a:hover {
-  color: #bdc3c7;
+  color: #fff;
 }
