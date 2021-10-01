@@ -1,52 +1,82 @@
 body,
-html{
-      margin: 0;
-      padding: 0;
-      height: 100%;
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 svg {
-      display: block;
-      width: 100%;
-      height: 100vh;
-      position: fixed;
-      top: 0;
-      left: 0;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
-  
+
 .scrollElement {
-      position: absolute;
-      height: 6000px;
-      width: 100px;
-      top: 0;
-      z-index: 0;
+  position: absolute;
+  height: 6000px;
+  width: 100px;
+  top: 0;
+  z-index: 0;
 }
 
-  .btn {
-      position: fixed;
-      bottom: 5%;
-      right: 0px;
-      transform: translateX(-50%);
-      border: 1px solid #fff;
-      border-radius: 5px;
-      font-size: 0.9rem;
-      padding: 0.5rem 0.7em;
-      background-color: transparent;
-      color: #ffffff;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      -webkit-font-smoothing: antialiased;
-      cursor: pointer;
-      transition: all .3s;
-      z-index: 11;
-  }
+.btn {
+  position: fixed;
+  bottom: 5%;
+  right: 0px;
+  transform: translateX(-50%);
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.7em;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  transition: all 0.3s;
+  z-index: 11;
+}
 
-  .btn_works {
-      left: 100px;
-      right: unset;
-      text-decoration: none;
-  }
+.btn_works {
+  left: 100px;
+  right: unset;
+  text-decoration: none;
+}
 
-  .btn:hover {
-      background: #ffffff;
-      color: #1B1734;
-  }
+.btn:hover {
+  background: #ffffff;
+  color: #1b1734;
+}
+
+.summary {
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 100vw;
+}
+
+.summary h1 {
+  font-size: 3rem;
+}
+
+.summary ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.summary li {
+  margin-top: 0.5rem;
+}
+
+.summary a {
+  text-decoration: none;
+  color: #000;
+}
+
+.summary a:hover {
+  color: #bdc3c7;
+}
