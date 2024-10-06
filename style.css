@@ -17,7 +17,7 @@ svg {
 .scrollElement {
   position: absolute;
   height: 6000px;
-  width: 100px;
+  width: 100%;
   top: 0;
   z-index: 0;
 }
@@ -83,4 +83,20 @@ svg {
   color: white;
   text-align: center;
   padding: 10px;
+}
+
+.projects{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
